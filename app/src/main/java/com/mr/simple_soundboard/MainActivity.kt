@@ -57,9 +57,9 @@ class MainActivity : ComponentActivity() {
             verticalArrangement = Arrangement.SpaceEvenly,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            SfxButton(sound = sound1, soundName = "Sound1")
-            SfxButton(sound = sound2, soundName = "Sound2")
-            SfxButton(sound = sound3, soundName = "Sound3")
+            SfxButton(sound = sound1, soundName = "Wow")
+            SfxButton(sound = sound2, soundName = "Dice")
+            SfxButton(sound = sound3, soundName = "Magnetic")
         }
     }
 
@@ -72,7 +72,7 @@ class MainActivity : ComponentActivity() {
                 prepareAsync()
             }
         }) {
-            Text(text = soundName, fontSize = 24.sp)
+            Text(text = soundName, fontSize = 48.sp)
         }
     }
 }
