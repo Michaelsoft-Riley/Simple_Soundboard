@@ -1,7 +1,7 @@
 # Overview
 
-This is a simple soundboard app that plays a different preset sound file when each button is pressed.
-I created this to practice using Compose for UI development within Android Studio.
+This is a simple soundboard app that I created to practice using Compose for UI development within Android Studio.
+Each button is bound to a different preset sound file that will be played on click.
 
 [Software Demo Video](https://youtu.be/QHm5tNOjKhE)
 
