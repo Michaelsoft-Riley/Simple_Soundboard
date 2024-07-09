@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Simple_Soundboard</string>
+    <string name="wow">Wow</string>
+    <string name="dice">Dice</string>
+    <string name="magnetic">Magnetic</string>
 </resources>
